@@ -1,7 +1,7 @@
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
-		
+	#coment azure	
 format:
 	black *.py
 	
