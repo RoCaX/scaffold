@@ -1,7 +1,8 @@
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
-	#coment azure	
+	#coment azure
+	#coment gcp	
 format:
 	black *.py
 	
